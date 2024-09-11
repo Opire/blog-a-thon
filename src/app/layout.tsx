@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import { Outfit } from "next/font/google";
-import "./globals.css";
 import { ColorSchemeScript, createTheme, DEFAULT_THEME, MantineProvider } from "@mantine/core";
+
+import '@mantine/core/styles.css';
+import "./globals.css";
 
 const mainFont = Outfit({ subsets: ["latin"] });
 
